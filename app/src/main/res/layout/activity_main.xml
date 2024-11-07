@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status will be shown here"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Turn LED ON Button -->
+    <Button
+        android:id="@+id/button_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn LED ON"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Turn LED OFF Button -->
+    <Button
+        android:id="@+id/button_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn LED OFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Timer Duration Input -->
+    <EditText
+        android:id="@+id/timer_duration_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter timer duration in seconds"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Set Timer Button -->
+    <Button
+        android:id="@+id/button_set_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Timer"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Battery Level Text -->
+    <TextView
+        android:id="@+id/battery_level_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Level: --%"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Battery Threshold Input -->
+    <EditText
+        android:id="@+id/battery_threshold_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter battery threshold (%)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Set Battery Threshold Button -->
+    <Button
+        android:id="@+id/set_battery_threshold_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Threshold"/>
+
+</LinearLayout>
